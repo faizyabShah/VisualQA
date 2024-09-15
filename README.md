@@ -11,6 +11,8 @@ The VizWiz dataset is used for training and validation. It includes:
 
 ## Model Architecture
 The model is designed for VQA tasks, taking in an image and a related question as inputs. These inputs are encoded using the CLIP model and processed through various layers to predict three outputs: Answerability, Answer Type, and the Actual Answer.
+![image](https://github.com/user-attachments/assets/6975df9e-e96e-453f-abb4-30b07060908d)
+
 
 ### Key Components
 - **CLIP Image Encoder**: Converts images into fixed-size tensors by extracting visual features.
